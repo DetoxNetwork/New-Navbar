@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--<link href="style.css" rel="stylesheet" type="text/css" />-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+<div class="navbar">
+  
+  <a  id="logotitle" href="https://detox.detoxnetwork.repl.co/"><img src="logo.svg" id="logotitle"></a>
+  
+  <a class="navbara" href="https://detox.detoxnetwork.repl.co/index.html">Home</a>
+  
+  <a  class="navbara" href="https://news.detoxnetwork.repl.co/">News</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Products
+      <i class="fa fa-caret-down"></i>
+    </button>
+    
+    <div class="dropdown-content">
+      <a href="https://subLink.detoxnetwork.repl.co">subLink</a>
+      <a href="https://detox.detoxnetwork.repl.co/evade.html">Evade</a>
+      <a href="https://EmulatorJS.detoxnetwork.repl.co">EmulatorJS</a>
+      
+      <a href="https://Phantom.detoxnetwork.repl.co">Phantom</a>
+    </div>
+
+    
+  </div>
+
+<div class="dropdown">
+<button class="dropbtn">Solutions
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+  <div class="dropdown-content">
+      <a href="#">Toggle Switch (Coming Soon!)</a>
+      <a href="#">EmulatorJS Backend (Coming Soon!)</a>
+    </div>
+  
+</div>
+  
+<div class="dropdown">
+<button class="dropbtn">More
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+  <div class="dropdown-content">
+      <a href="#">About us (Coming Soon!)</a>
+      <a href="#">Contact us (Coming Soon!)</a>
+    </div>
+  
+</div>
+
+  <a  class="navbara" id="joinus" href="https://discord.gg/rBhWhdquVk">Join Us!</a>
+</div>
+</body>
+
+<style>
+  html, body {height: 100%;width: 100%;overflow-x: hidden;}
+  .navbar {
+    overflow: visible;
+    font-family: Montserrat;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background:rgba(1,1,1,0.5);
+    backdrop-filter: blur(4px);
+  }
+  .navbara{ float: left;font-size: 20px;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+  .navbar img {float: left;text-align: center;width: 48px;padding: 0; justify-content: center;vertical-align: middle;}
+  
+  .dropdown {float: left;overflow: visible;}
+  .dropdown .dropbtn {font-size: 20px;border: none;outline: none;color: white;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;}.navbar a:hover, 
+
+  .dropdown:hover .dropbtn {text-decoration: underline #ff0035;text-underline-offset: 5.5px;text-decoration-thickness: 2px;color: white;}
+  
+  .dropdown-content{z-index: 99;display: none;background-color: inhert;min-width: 160px;text-decoration: none;position: absolute; overflow: visible;}
+  
+  .dropdown-content a {z-index: 98;float: none;color: white;padding: 12px 16px;text-decoration: none;display: block;text-align: left;transition-duration: 0.45s;overflow: visible;}
+  
+  .dropdown-content a:hover {background: #ff0035;text-decoration: none;}.dropdown:hover .dropdown-content {display: block;}navbar a:hover{background-color: #292929;}#joinus{float: right;}
+</style>
+  
+</html>
